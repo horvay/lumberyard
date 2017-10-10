@@ -1,5 +1,5 @@
 # LumberyardTutor.me
-This repository is to contain many of the code samples used at the tutorial blog LumebryardTutor.me
+This repository is to contain many of the code samples used at the tutorial blog https://lumberyardtutor.me
 
 ## Lumberyard License
 Your use of Lumberyard is governed by the AWS Customer Agreement at https://aws.amazon.com/agreement/ and Lumberyard Service Terms at https://aws.amazon.com/serviceterms/#57._Amazon_Lumberyard_Engine.
