@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/INCLUDE",
+                "C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/include/10.0.15063.0/shared",
+                "${workspaceRoot}/../TutorialSeries/Gem/Code/Source",
+                "${workspaceRoot}/../TutorialUI/Gem/Code/Source",
+                "${workspaceRoot}/../TutorialSeries/Gem/Code/Include",
+                "${workspaceRoot}/../TutorialUI/Gem/Code/Include",
+                "${workspaceRoot}/../BirdEye/Gem/Code/Source",
+                "${workspaceRoot}/../BirdEye/Gem/Code/Include",
+                "${workspaceRoot}/../Principia/Gem/Code/Source",
+                "${workspaceRoot}/../Principia/Gem/Code/Include",
+                "${workspaceRoot}/../Code/CryEngine/CryCommon",
+                "${workspaceRoot}/../Code/CryEngine/CryAction",
+                "${workspaceRoot}/../Code/Framework/AzGameFramework",
+                "${workspaceRoot}/../Gems/LmbrCentral/Code/include",
+                "${workspaceRoot}/../Gems/PhysicsWrapper/Code/include",
+                "${workspaceRoot}/../Code/Framework/AzFramework",
+                "${workspaceRoot}/../Code/Framework/GridMate",
+                "${workspaceRoot}/../Code/Framework/AzCore",
+                "${workspaceRoot}/../Code/Framework/AzTest",
+                "${workspaceRoot}/../Code/Framework/AzToolsFramework",
+                "${workspaceRoot}/../Code/SDKs/boost",
+                "${workspaceRoot}/../Code/SDKs/GoogleMock/include",
+                "${workspaceRoot}/../../3rdParty/Qt/5.6.2.2-az/msvc2015_64/include",
+                "${workspaceRoot}/../Code/Sandbox/Editor",
+                "${workspaceRoot}/../Code/Sandbox/Editor/Include",
+                "${workspaceRoot}/../Code/Sandbox/Plugins/EditorCommon",
+                "${workspaceRoot}/../Gems/LyShine/Code/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "_WIN32",
+                "_WIN64",
+                "NOMINMAX",
+                "_ITERATOR_DEBUG_LEVEL=2",
+                "DEDICATED_SERVER",
+                "AZ_TESTS_ENABLED",
+                "PLATFORM_SUPPORTS_AWS_NATIVE_SDK",
+                "LY_BUILD=398643",
+                "_MT",
+                "_DLL"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/../TutorialSeries/Gem/Code/Source",
+                    "${workspaceRoot}/../TutorialSeries/Gem/Code/Include",
+                    "${workspaceRoot}/../BirdEye/Gem/Code/Source",
+                    "${workspaceRoot}/../BirdEye/Gem/Code/Include",
+                    "${workspaceRoot}/../Principia/Gem/Code/Source",
+                    "${workspaceRoot}/../Principia/Gem/Code/Include",
+                    "${workspaceRoot}/../Code/CryEngine/CryCommon",
+                    "${workspaceRoot}/../Code/CryEngine/CryAction",
+                    "${workspaceRoot}/../Code/Framework/AzGameFramework",
+                    "${workspaceRoot}/../Gems/LmbrCentral/Code/include",
+                    "${workspaceRoot}/../Gems/PhysicsWrapper/Code/include",
+                    "${workspaceRoot}/../Code/Framework/AzFramework",
+                    "${workspaceRoot}/../Code/Framework/GridMate",
+                    "${workspaceRoot}/../Code/Framework/AzCore",
+                    "${workspaceRoot}/../Code/Framework/AzTest",
+                    "${workspaceRoot}/../Code/Framework/AzToolsFramework",
+                    "${workspaceRoot}/../Code/SDKs/boost",
+                    "${workspaceRoot}/../Code/SDKs/GoogleMock/include",
+                    "${workspaceRoot}/../../3rdParty/Qt/5.6.2.2-az/msvc2015_64/include",
+                    "${workspaceRoot}/../Code/Sandbox/Editor",
+                    "${workspaceRoot}/../Code/Sandbox/Editor/Include",
+                    "${workspaceRoot}/../Code/Sandbox/Plugins/EditorCommon"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/.BROWSE.VC.DB"
+            }
+        }
+    ],
+    "version": 3
+}

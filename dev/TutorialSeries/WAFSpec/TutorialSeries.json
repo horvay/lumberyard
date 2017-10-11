@@ -1,0 +1,12 @@
+{
+    "description": "Configuration for TutorialSeries",
+    "visual_studio_name": "TutorialSeries",
+    "comment" : "",
+    "game_projects" : "TutorialSeries",
+
+    "modules" : [
+        "AzCore",
+        "AzFramework",
+        "AzGameFramework"
+    ]
+}

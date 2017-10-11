@@ -1,0 +1,21 @@
+{
+    "Dependencies": [
+        {
+            "Uuid": "352fef7706634c92814c587e84d7165a", 
+            "VersionConstraints": [
+                "~>0.1"
+            ], 
+            "_comment": "CryLegacy"
+        }
+    ], 
+    "GemFormatVersion": 3,
+    "Uuid": "d2287a4ca11b4571af3e1681d030643d",
+    "Name": "BirdEye",
+    "DisplayName": "BirdEye",
+    "Version": "0.1.0",
+    "LinkType": "Dynamic",
+    "Summary": "A short description of my Game Project Gem.",
+    "Tags": ["Game"],
+    "IconPath": "preview.png",
+    "IsGameGem": true
+}

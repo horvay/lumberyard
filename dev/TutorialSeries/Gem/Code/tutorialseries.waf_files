@@ -1,0 +1,43 @@
+{
+    "none": {
+        "Source": [
+            "Source/StdAfx.cpp",
+            "Source/StdAfx.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/TutorialSeries/TutorialSeriesBus.h"
+        ],
+        "Source": [
+            "Source/TutorialSeriesModule.cpp",
+            "Source/TutorialSeriesSystemComponent.cpp",
+            "Source/TutorialSeriesSystemComponent.h"
+        ],
+        "Source/Buses": [
+            "Source/Buses/CameraRotationRequest.h"
+        ],
+        "Source/Compnonets": [
+            "Source/Components/TutCharacterComp.h",
+            "Source/Components/TutCharacterComp.cpp",
+            "Source/Components/TutCameraComp.h",
+            "Source/Components/TutCameraComp.cpp"
+        ],
+        "Source/Core": [
+            "Source/Core/EditorGame.cpp",
+            "Source/Core/EditorGame.h",
+            "Source/Core/TutorialSeriesGame.cpp",
+            "Source/Core/TutorialSeriesGame.h",
+            "Source/Core/TutorialSeriesGameRules.cpp",
+            "Source/Core/TutorialSeriesGameRules.h"
+        ],
+        "Source/Game": [
+            "Source/Game/Actor.cpp",
+            "Source/Game/Actor.h"
+        ],
+        "Source/System": [
+            "Source/System/GameStartup.cpp",
+            "Source/System/GameStartup.h"
+        ]
+    }
+}

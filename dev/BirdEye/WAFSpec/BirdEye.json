@@ -1,0 +1,12 @@
+{
+    "description": "Configuration for BirdEye",
+    "visual_studio_name": "BirdEye",
+    "comment" : "",
+    "game_projects" : "BirdEye",
+
+    "modules" : [
+        "AzCore",
+        "AzFramework",
+        "AzGameFramework"
+    ]
+}

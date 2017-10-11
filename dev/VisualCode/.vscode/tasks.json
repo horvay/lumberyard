@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${cwd}/.."
+    },
+    "runner": "terminal",
+    "echoCommand": true,
+    "type": "shell",
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+    },
+    "tasks": [
+        {
+            "taskName": "build all",
+            "command": "lmbr_waf.bat build_win_x64_vs2015_debug -p all",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        },
+        {
+            "taskName": "build game",
+            "command": "lmbr_waf.bat build_win_x64_vs2015_debug -p game",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        },
+        {
+            "taskName": "build configure",
+            "command": "lmbr_waf.bat",
+            "args": [
+                "configure -p all"
+            ],
+            "problemMatcher": [
+                "$msCompile"
+            ]
+        },
+        {
+            "taskName": "build test",
+            "command": "lmbr_waf.bat build_win_x64_vs2015_debug_test -p game",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        },
+        {
+            "taskName": "build test all",
+            "command": "lmbr_waf.bat build_win_x64_vs2015_debug_test -p all",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "none": {
+        "Source": [
+            "Source/StdAfx.cpp",
+            "Source/StdAfx.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/PhysicsWrapper/PhysicsWrapperBus.h"
+        ],
+        "Source": [
+            "Source/PhysicsWrapperModule.cpp",
+            "Source/PhysicsWrapperSystemComponent.cpp",
+            "Source/PhysicsWrapperSystemComponent.h"
+        ]
+    }
+}

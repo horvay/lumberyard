@@ -1,0 +1,18 @@
+{
+    "none": {
+        "Source": [
+            "Source/StdAfx.cpp",
+            "Source/StdAfx.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/TutorialUI/TutorialUIBus.h"
+        ],
+        "Source": [
+            "Source/TutorialUIModule.cpp",
+            "Source/TutorialUISystemComponent.cpp",
+            "Source/TutorialUISystemComponent.h"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Dependencies": [
+        {
+            "Uuid": "ff06785f7145416b9d46fde39098cb0c",
+            "VersionConstraints": [
+                "~>0.1"
+            ],
+            "_comment": "LmbrCentral"
+        }
+    ],
+    "GemFormatVersion": 3,
+    "Uuid": "453b88cf44d041709924810814c70a70",
+    "Name": "PhysicsWrapper",
+    "DisplayName": "PhysicsWrapper",
+    "Version": "0.1.0",
+    "LinkType": "Dynamic",
+    "Summary": "Physics Wrapper",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png"
+}

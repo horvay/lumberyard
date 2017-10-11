@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launcher",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug/BirdEyeLauncher.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "test",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug.Test/AzTestRunner.exe",
+            "args": [
+                "Gem.BirdEye_d2287a4ca11b4571af3e1681d030643d.v0.1.0.dll",
+                "AzRunUnitTests",
+                "--pause-on-completion"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug.Test",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "integration",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug.Test/AzTestRunner.exe",
+            "args": [
+                "Gem.BirdEye_d2287a4ca11b4571af3e1681d030643d.v0.1.0.dll",
+                "AzRunIntegTests",
+                "--pause-on-completion"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug.Test",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}

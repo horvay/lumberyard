@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "launcher",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug/TutorialUILauncher.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "test",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug.Test/AzTestRunner.exe",
+            "args": [
+                "Gem.TutorialUI_114abe624aea4de6a6b011bdbfdea1bd.v0.1.0.dll",
+                "AzRunUnitTests",
+                "--pause-on-completion"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug.Test",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "integration",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug.Test/AzTestRunner.exe",
+            "args": [
+                "Gem.TutorialUI_114abe624aea4de6a6b011bdbfdea1bd.v0.1.0.dll",
+                "AzRunIntegTests",
+                "--pause-on-completion"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug.Test",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "Dependencies": [
+        {
+            "Uuid": "352fef7706634c92814c587e84d7165a",
+            "VersionConstraints": [
+                "~>0.1"
+            ],
+            "_comment": "CryLegacy"
+        },
+        {
+            "Uuid": "453b88cf44d041709924810814c70a70",
+            "VersionConstraints": [
+                "~>0.1"
+            ],
+            "_comment": "PhysicsWrapper"
+        },
+        {
+            "Uuid": "ff06785f7145416b9d46fde39098cb0c",
+            "VersionConstraints": [
+                "~>0.1"
+            ],
+            "_comment": "LmbrCentral"
+        }
+    ],
+    "GemFormatVersion": 3,
+    "Uuid": "7a17c44ce76744e1b646e6d8556372c8",
+    "Name": "TutorialSeries",
+    "DisplayName": "TutorialSeries",
+    "Version": "0.1.0",
+    "LinkType": "Dynamic",
+    "Summary": "A short description of my Game Project Gem.",
+    "Tags": ["Game"],
+    "IconPath": "preview.png",
+    "IsGameGem": true
+}

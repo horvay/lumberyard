@@ -1,0 +1,13 @@
+
+
+def build(bld):
+    bld.DefineGem(
+        # General
+        includes                = [ '.',
+                                    bld.Path('Code/CryEngine/CryCommon'),
+                                    bld.Path('Code/CryEngine/CryAction')],
+        use                     = ['AzGameFramework'],
+
+        # Testing
+        test_all_file_list      = ['tutorialseries_tests.waf_files']
+    )

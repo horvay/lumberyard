@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "editor",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/../Bin64vc140.Debug/Editor.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/../Bin64vc140.Debug",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}

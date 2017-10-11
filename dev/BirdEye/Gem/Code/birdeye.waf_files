@@ -1,0 +1,43 @@
+{
+    "none": {
+        "Source": [
+            "Source/StdAfx.cpp",
+            "Source/StdAfx.h"
+        ]
+    },
+    "auto": {
+        "Include": [
+            "Include/BirdEye/BirdEyeBus.h"
+        ],
+        "Source": [
+            "Source/BirdEyeModule.cpp",
+            "Source/BirdEyeSystemComponent.cpp",
+            "Source/BirdEyeSystemComponent.h"
+        ],
+        "Source/Core": [
+            "Source/Core/EditorGame.cpp",
+            "Source/Core/EditorGame.h",
+            "Source/Core/BirdEyeGame.cpp",
+            "Source/Core/BirdEyeGame.h",
+            "Source/Core/BirdEyeGameRules.cpp",
+            "Source/Core/BirdEyeGameRules.h"
+        ],
+        "Source/Buses": [
+            "Source/Buses/CameraController.h"
+        ],
+        "Source/Compnonets": [
+            "Source/Components/BECameraComponent.h",
+            "Source/Components/BECameraComponent.cpp",
+            "Source/Components/BECameraControllerComponent.h",
+            "Source/Components/BECameraControllerComponent.cpp"
+        ],
+        "Source/Game": [
+            "Source/Game/Actor.cpp",
+            "Source/Game/Actor.h"
+        ],
+        "Source/System": [
+            "Source/System/GameStartup.cpp",
+            "Source/System/GameStartup.h"
+        ]
+    }
+}

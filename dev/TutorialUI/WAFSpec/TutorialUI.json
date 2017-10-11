@@ -1,0 +1,9 @@
+{
+    "description": "Configuration for TutorialUI",
+    "visual_studio_name": "TutorialUI",
+    "comment" : "",
+    "game_projects" : "TutorialUI",
+
+    "modules" : [
+    ]
+}
